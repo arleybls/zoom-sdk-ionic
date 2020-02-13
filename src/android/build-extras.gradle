@@ -6,8 +6,6 @@ android {
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/LICENSE'
     }
-    android.enableJetifier=true
-    android.useAndroidX=true
 }
 repositories {
     jcenter()
@@ -22,7 +20,7 @@ repositories {
 dependencies {
      implementation 'androidx.multidex:multidex:2.0.0'
      implementation 'androidx.recyclerview:recyclerview:1.0.0'
-     implementation 'androidx.appcompat:appcompat:1.0.0'
+     
      implementation(name:'commonlib', ext:'aar')
      implementation(name:'mobilertc', ext:'aar')
 }
