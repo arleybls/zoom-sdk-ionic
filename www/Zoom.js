@@ -41,7 +41,7 @@ ZoomUs.prototype.startMeeting = function(meetingNo, options, success, error) {
         callNativeFunction('startMeeting', [meetingNo, "", "", "", "", options], success, error);
 };
 
-ZoomUs.prototype.startInstantMeeting: function(options, success, error) {
+ZoomUs.prototype.startInstantMeeting = function(options, success, error) {
         callNativeFunction('startInstantMeeting', [options], success, error);
 };
 
