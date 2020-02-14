@@ -52,8 +52,8 @@ var zoom = {
 if(!window.plugins) {
     window.plugins = {};
 }
-if (!window.plugins.scrypt) {
-    window.plugins.scrypt = zoom;
+if (!window.plugins.zoom) {
+    window.plugins.zoom = zoom;
 }
 
 module.exports = zoom;
