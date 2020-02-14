@@ -48,5 +48,12 @@ var zoom = {
     }
 
 };
+// Bind to window.plugins
+if(!window.plugins) {
+    window.plugins = {};
+}
+if (!window.plugins.scrypt) {
+    window.plugins.scrypt = zoom;
+}
 
 module.exports = zoom;
